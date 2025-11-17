@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titulación de Bienes Inmuebles Seguridad Jurídica y Desarrollo Familiar</title>
+  
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Iconos -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Estilos personalizados -->
+ <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(180deg, #E0F2F1 0%, #FFFFFF 100%);
+  }
+
+  .navbar {
+    background-color: #004D40;
+  }
+
+  .navbar-brand img {
+    border-radius: 50%;
+  }
+
+  header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 77, 64, 0.6), rgba(0, 77, 64, 0.6)),
+      url('https://cdn.pixabay.com/photo/2016/11/29/09/32/architecture-1867187_1280.jpg') center/cover no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    background-color: rgba(0, 77, 64, 0.75);
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+
+  section {
+    padding: 80px 0;
+  }
+
+  h2.section-title {
+    color: #00796B;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn, button {
+    background: linear-gradient(90deg, #00796B 0%, #004D40 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+  }
+
+  .btn:hover, button:hover {
+    background: linear-gradient(90deg, #009688 0%, #00695C 100%);
+  }
+
+  footer {
+    background: linear-gradient(90deg, #004D40 0%, #00796B 100%);
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  footer a:hover {
+    transform: scale(1.2);
+    color: #FFD700; /* toque dorado */
+  }
+
+  /* Código QR en esquina */
+  .qr-corner {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 8px;
+  }
+
+  .qr-corner img {
+    width: 100%;
+    border-radius: 8px;
+  }
+</style>
+</head>  
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <img
+             src="https://sanfranciscogob.mx/brand/predial-urbano.png" alt="Logo" width="40" height="40" class="me-2" />
+        Bienes Inmuebles
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#titulacion">Titulación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sunarp">SUNARP</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pasos">Pasos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+           <li class="nav-item"><a class="nav-link" href="#Evidencias">Evidencias</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header / Inicio -->
+  <header id="inicio">
+    <div class="container">
+      <h1>Titulación de Bienes Inmuebles</h1>
+      <p class="mt-3">
+        Los bienes inmuebles son la base del desarrollo familiar y económico. Su formalización brinda seguridad jurídica y oportunidades de crecimiento.
+      </p>
+      <a href="#beneficios" class="btn btn-light btn-lg mt-3">Conoce los Beneficios</a>
+    </div>
+  </header>
+
+<!-- ===== CARÁTULA PROFESIONAL CON PATRÓN JURÍDICO + HOJA BLANCA ===== -->
+<section class="caratula-container">
+  <div class="caratula-background">
+
+    <div class="caratula-card">
+      <!-- Logo profesional -->
+      <div class="caratula-logo">
+        <svg width="70" height="70" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L13.2 6H11L12 2Z" stroke="#d4a93a" stroke-width="1.8"/>
+          <path d="M6 10H18" stroke="#d4a93a" stroke-width="1.8"/>
+          <path d="M7 10L5 15H9L7 10Z" stroke="#d4a93a" stroke-width="1.8"/>
+          <path d="M17 10L15 15H19L17 10Z" stroke="#d4a93a" stroke-width="1.8"/>
+          <path d="M12 6V22" stroke="#d4a93a" stroke-width="1.8"/>
+        </svg>
+      </div>
+
+      <h1 class="caratula-titulo">Derechos Reales</h1>
+
+      <div class="caratula-info">
+        <p><span>Alumna:</span> Cinthya Arroyo Baca</p>
+        <p><span>Curso:</span> Derechos Reales</p>
+        <p><span>Tema:</span> Titulación de Bien Inmueble</p>
+        <p><span>Docente:</span> Jorge Omar Casafranca Borda</p>
+      </div>
+
+      <div class="caratula-footer">
+        <p>Universidad Continental</p>
+        <p>2025</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== ESTILOS DE LA CARÁTULA ===== -->
+<style>
+
+/* Fondo con patrón jurídico */
+.caratula-background {
+  width: 100%;
+  padding: 60px 0;
+  background: repeating-linear-gradient(
+    45deg,
+    #0f2a1c,
+    #0f2a1c 20px,
+    #113422 20px,
+    #113422 40px
+  ); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #d4b464;
+}
+
+/* Caja tipo "hoja blanca" */
+.caratula-card {
+  width: 92%;
+  max-width: 580px;
+  background: white;
+  padding: 40px 35px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+
+  /* Borde oro metálico */
+  border: 3px solid #d4b464;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* Logo */
+.caratula-logo {
+  margin-bottom: 10px;
+}
+
+/* Título */
+.caratula-titulo {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #0e2f1f;
+}
+
+/* Información */
+.caratula-info {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: left;
+  color: #173b29;
+}
+
+.caratula-info span {
+  font-weight: bold;
+  color: #b58b26; /* dorado suave */
+}
+
+/* Footer */
+.caratula-footer {
+  margin-top: 10px;
+  font-size: 15px;
+  opacity: 0.9;
+  font-style: italic;
+  color: #0e2f1f;
+}
+
+</style>
+  
+  <!-- Titulación -->
+  <section id="titulacion">
+    <div class="container">
+      <h2 class="section-title">¿Qué es la Titulación de Bienes Inmuebles?</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p>
+            La titulación de bienes inmuebles es el proceso de formalizar la propiedad de un terreno, casa o departamento mediante su inscripción en los registros públicos. 
+            Este procedimiento otorga <strong>seguridad jurídica</strong> y reconoce oficialmente la propiedad.
+          </p>
+          <ul>
+            <li>Evita conflictos de propiedad.</li>
+            <li>Facilita la herencia y transferencia legal.</li>
+            <li>Permite acceder a créditos y programas de vivienda.</li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="https://img.freepik.com/fotos-premium/agente-bienes-raices-que-presenta-consulta-al-cliente-toma-decisiones-firmar-acuerdo-formulario-seguro-comprar-vender-modelo-vivienda-relacion-oferta-prestamo-hipotecario-seguro-vivienda_49553-1986.jpg" alt="Titulación" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUNARP -->
+  <section id="sunarp" class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Información sobre la SUNARP</h2>
+      <p class="text-center mb-5">
+        La <strong>Superintendencia Nacional de los Registros Públicos (SUNARP)</strong> es la entidad encargada de registrar los derechos de propiedad y otorgar seguridad jurídica sobre bienes muebles e inmuebles en el Perú.
+      </p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm text-center p-4">
+            <i class="bi bi-house-door-fill fs-1 text-success mb-3"></i>
+            <h5 class="fw-bold text-success">Registro de Propiedad</h5>
+            <p>Inscripción de terrenos, casas y departamentos para formalizar la titularidad.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm text-center p-4">
+            <i class="bi bi-file-earmark-text-fill fs-1 text-success mb-3"></i>
+            <h5 class="fw-bold text-success">Publicidad Registral</h5>
+            <p>Obtén partidas, certificados y constancias de inscripción en línea.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm text-center p-4">
+            <i class="bi bi-shield-lock-fill fs-1 text-success mb-3"></i>
+            <h5 class="fw-bold text-success">Seguridad Jurídica</h5>
+            <p>Protege tus derechos y evita conflictos por superposición o duplicidad de títulos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pasos -->
+  <section id="pasos">
+    <div class="container">
+      <h2 class="section-title">Pasos para Titular un Bien Inmueble</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <ol class="list-group list-group-numbered shadow-sm">
+            <li class="list-group-item">Verifica la situación legal del terreno o propiedad.</li>
+            <li class="list-group-item">Solicita la inscripción en la SUNARP.</li>
+            <li class="list-group-item">Presenta los documentos requeridos (título, planos, DNI, etc.).</li>
+            <li class="list-group-item">Realiza el pago de derechos registrales.</li>
+            <li class="list-group-item">Espera la revisión, calificación e inscripción final.</li>
+          </ol>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="https://www.sunarp.gob.pe/w-sid/img/log-sid.png" class="img-fluid rounded shadow" alt="Pasos de titulación" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="beneficios" class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Beneficios Sociales y Económicos</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <ul class="fs-5">
+            <li>Acceso a créditos hipotecarios o programas estatales.</li>
+            <li>Seguridad jurídica de la propiedad.</li>
+            <li>Incremento del valor del bien.</li>
+            <li>Posibilidad de heredar o transferir legalmente.</li>
+            <li>Contribución al desarrollo urbano y económico.</li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="https://i.epochtimes.com/assets/uploads/2020/12/3-29-600x359.jpg" class="img-fluid rounded shadow" alt="Beneficios" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Evidencias – Portafolio con Modal -->
+<section id="evidencias" class="py-5" style="background: linear-gradient(to bottom, #f8f8f8, #ffffff);">
+  <div class="container">
+
+    <h2 class="section-title text-center mb-4" style="color:#2b5a3a;">
+      Evidencias del Trabajo de Campo
+    </h2>
+
+    <p class="text-center mb-5" style="max-width: 700px;margin: 0 auto;">
+      Registro fotográfico del trabajo de campo realizado para informar, orientar y capacitar a la población 
+  sobre la importancia de la titulación de bienes inmuebles.
+    </p>
+
+    <div class="row g-4">
+
+      <!-- Imagen 1 -->
+      <div class="col-md-3">
+        <div class="portfolio-item shadow-sm" style="border-radius: 10px;overflow: hidden;cursor:pointer;">
+          <img src="https://i.imgur.com/qxTo3HN.jpeg"
+               class="img-fluid"
+               data-bs-toggle="modal"
+               data-bs-target="#modal1"
+               alt="Documento Registral">
+        </div>
+      </div>
+
+      <!-- Imagen 2 -->
+      <div class="col-md-3">
+        <div class="portfolio-item shadow-sm" style="border-radius: 10px;overflow: hidden;cursor:pointer;">
+          <img src="https://i.imgur.com/cRfbu8i.jpeg"
+               class="img-fluid"
+               data-bs-toggle="modal"
+               data-bs-target="#modal2"
+               alt="Certificado registral">
+        </div>
+      </div>
+
+      <!-- Imagen 3 -->
+      <div class="col-md-3">
+        <div class="portfolio-item shadow-sm" style="border-radius: 10px;overflow: hidden;cursor:pointer;">
+          <img src="https://i.imgur.com/u6PLrbt.jpeg"
+               class="img-fluid"
+               data-bs-toggle="modal"
+               data-bs-target="#modal3"
+               alt="Plano del inmueble">
+        </div>
+      </div>
+
+      <!-- Imagen 4 -->
+      <div class="col-md-3">
+        <div class="portfolio-item shadow-sm" style="border-radius: 10px;overflow: hidden;cursor:pointer;">
+          <img src="https://i.imgur.com/qTEY88Y.jpeg"
+               class="img-fluid"
+               data-bs-toggle="modal"
+               data-bs-target="#modal4"
+               alt="Constancia de posesión">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  
+  <!-- ================== ESTILOS MEJORADOS PARA LOS FLYERS ================== -->
+<style>
+
+  /* Sección general */
+  #flyers {
+    background: #f4f6f1;
+    padding: 70px 0;
+  }
+
+  #flyers h2 {
+    text-align:center;
+    color:#175b2b;
+    font-weight:800;
+    letter-spacing:1px;
+    margin-bottom:50px;
+  }
+
+  /* MARCO ELEGANTE */
+  .flyer-card {
+    position: relative;
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 18px;
+
+    /* Borde verde con contorno dorado sutil */
+    border: 4px solid #175b2b;  
+    box-shadow: 
+      0 0 0 6px rgba(212, 180, 92, 0.45),  /* Dorado suave externo */
+      0 8px 25px rgba(0, 0, 0, 0.18);      /* Sombra profesional */
+
+    overflow: hidden;
+    transition: transform .25s ease, box-shadow .25s ease;
+    margin-bottom: 40px;
+  }
+
+  .flyer-card:hover {
+    transform: scale(1.015);
+    box-shadow:
+      0 0 0 6px rgba(212,180,92,0.6),
+      0 12px 30px rgba(0,0,0,0.25);
+  }
+
+  /* Imagen interna */
+  .flyer-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+  }
+
+</style>
+
+<!-- ================== APARTADO FLYERS ================== -->
+<section id="flyers">
+  <div class="container">
+
+    <h2>Triptico Informativos</h2>
+
+    <!-- Flyer 1 -->
+    <div class="flyer-card">
+      <img src="https://i.imgur.com/UkMgRzk.jpeg" alt="Flyer 1" class="flyer-img">
+    </div>
+
+    <!-- Flyer 2 -->
+    <div class="flyer-card">
+      <img src="https://i.imgur.com/a2RU579.jpeg" alt="Flyer 2" class="flyer-img">
+    </div>
+
+  </div>
+</section>
+  
+   <!-- Footer -->
+  <footer>
+    <div class="container">
+      <h5 class="fw-bold mb-3">Formaliza tu propiedad y asegura tu futuro</h5>
+      <p>
+        Para más información, accede directamente a las siguientes plataformas oficiales:
+      </p>
+
+      <div class="row mt-4">
+        <div class="col-md-4 mb-3">
+          <div class="card bg-transparent border-light text-white shadow-sm p-3">
+            <h6 class="fw-bold"><i class="bi bi-building"></i> SUNARP</h6>
+            <p>Registro de Propiedad Inmueble, publicidad registral y servicios en línea.</p>
+            <a href="https://www.gob.pe/institucion/sunarp/sedes" target="_blank" class="btn btn-light btn-sm">
+              Acceder al portal
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card bg-transparent border-light text-white shadow-sm p-3">
+            <h6 class="fw-bold"><i class="bi bi-bank2"></i> COFOPRI</h6>
+            <p>Organismo encargado de formalizar la propiedad urbana e impulsar la titulación masiva.</p>
+            <a href="https://www.gob.pe/institucion/cofopri/sedes" target="_blank" class="btn btn-light btn-sm">
+              Ir al sitio web
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card bg-transparent border-light text-white shadow-sm p-3">
+            <h6 class="fw-bold"><i class="bi bi-geo-alt"></i> Ministerio de Vivienda</h6>
+            <p>Programas de vivienda, saneamiento físico-legal y acceso a créditos habitacionales.</p>
+            <a href="https://www.gob.pe/vivienda" target="_blank" class="btn btn-light btn-sm">
+              Visitar portal oficial
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="border-light my-4" />
+
+      <p class="mb-2">
+        📞 <strong>Aló Sunarp:</strong> 0800-27164 |
+        💬 <strong>Atención al ciudadano:</strong> consultas@sunarp.gob.pe
+      </p>
+
+      <!-- FOOTER CON REDES SOCIALES Y QR -->
+<footer style="background: #111; color: white; text-align: center; padding: 40px 0; position: relative;">
+  <h3 style="margin-bottom: 20px;">Síguenos en nuestras redes</h3>
+  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+    <a href="#" style="background: linear-gradient(135deg, #6a11cb, #2575fc); 
+       border-radius: 50%; width: 45px; height: 45px; display: flex; 
+       justify-content: center; align-items: center; text-decoration: none; 
+       box-shadow: 0 0 10px rgba(0,0,0,0.3); transition: transform 0.3s;">
+      <i class="fab fa-facebook-f" style="color: white; font-size: 20px;"></i>
+    </a>
+    <a href="#" style="background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); 
+       border-radius: 50%; width: 45px; height: 45px; display: flex; 
+       justify-content: center; align-items: center; text-decoration: none; 
+       box-shadow: 0 0 10px rgba(0,0,0,0.3); transition: transform 0.3s;">
+      <i class="fab fa-instagram" style="color: white; font-size: 20px;"></i>
+    </a>
+    <a href="#" style="background: linear-gradient(135deg, #1DA1F2, #0d8af0); 
+       border-radius: 50%; width: 45px; height: 45px; display: flex; 
+       justify-content: center; align-items: center; text-decoration: none; 
+       box-shadow: 0 0 10px rgba(0,0,0,0.3); transition: transform 0.3s;">
+      <i class="fab fa-twitter" style="color: white; font-size: 20px;"></i>
+    </a>
+    <a href="#" style="background: linear-gradient(135deg, #25D366, #128C7E); 
+       border-radius: 50%; width: 45px; height: 45px; display: flex; 
+       justify-content: center; align-items: center; text-decoration: none; 
+       box-shadow: 0 0 10px rgba(0,0,0,0.3); transition: transform 0.3s;">
+      <i class="fab fa-whatsapp" style="color: white; font-size: 20px;"></i>
+    </a>
+    <a href="#" style="background: linear-gradient(135deg, #FF0000, #CC0000); 
+       border-radius: 50%; width: 45px; height: 45px; display: flex; 
+       justify-content: center; align-items: center; text-decoration: none; 
+       box-shadow: 0 0 10px rgba(0,0,0,0.3); transition: transform 0.3s;">
+      <i class="fab fa-youtube" style="color: white; font-size: 20px;"></i>
+    </a>
+    <a href="#" style="background: linear-gradient(135deg, #000000, #ff0050); 
+       border-radius: 50%; width: 45px; height: 45px; display: flex; 
+       justify-content: center; align-items: center; text-decoration: none; 
+       box-shadow: 0 0 10px rgba(0,0,0,0.3); transition: transform 0.3s;">
+      <i class="fab fa-tiktok" style="color: white; font-size: 20px;"></i>
+    </a>
+  </div>
+
+  <!-- QR CODE -->
+  <img src="qr.png" alt="QR de la página" 
+       style="position: absolute; bottom: 15px; right: 15px; width: 70px; height: 70px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.4);">
+
+  <p style="margin-top: 30px; font-size: 14px; color: #bbb;">
+    © 2025 Titulación de Bienes Inmuebles. Todos los derechos reservados.
+  </p>
+</footer>
+
+<!-- Agrega este enlace al final del <head> de tu HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+  </body>
+  
+</html>
